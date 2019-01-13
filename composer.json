@@ -1,0 +1,26 @@
+{
+    "name": "crazy-goat/php-faktura",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Piotr Hałas",
+            "email": "piotr@halas.net.pl"
+        }
+    ],
+    "autoload": {
+        "psr-4": { "CrazyGoat\\PHPInvoice\\": "app/" }
+    },
+    "require": {
+        "nyholm/psr7": "^1.0",
+        "league/plates": "^3.3",
+        "doctrine/dbal": "^2.9",
+        "respect/validation": "^1.1",
+        "doctrine/migrations": "^1.8",
+        "pimple/pimple": "^3.2",
+        "nyholm/psr7-server": "^0.3.0",
+        "dflydev/fig-cookies": "^2.0",
+        "lcobucci/jwt": "^3.2",
+        "crazy-goat/tiny": "0.1.2"
+    }
+}
